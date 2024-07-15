@@ -3,38 +3,46 @@ pythonMVC/
 ├── app/
 │   ├── controller/
 │   │   ├── __init__.py
-│   │   └── main_controller.py
+│   │   └── parse_xsd.py
 │   ├── model/
 │   │   ├── __init__.py
-│   │   └── user.py
+│   │   └── compare_elements.py
 │   ├── view/
 │   │   ├── __init__.py
-│   │   └── main_view.py
+│   │   └── 
 │   ├── templates/
-│   │   ├── base.html
-│   │   └── home.html
+│   │   ├── 
+│   │   └── 
 │   ├── static/
 │   │   ├── css/
 │   │   └── js/
 │   ├── config/
 │   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   └── development.py
-│   │   └── production.py
+│   │   ├── 
+│   │
+│   │
+│   ├── resources
+│   │   ├───data
+│   │         ├──old_version/EPC115-06_2021_V1.0_pacs.008.001.02_Update.xsd
+│   │	      ├──new_version/EPC115-06_2023_V1.0_pacs.008.001.08_Update.xsd
+│   │	      ├──impacts/impacta_summary.txt, test_scenarious.txt
+│   │   
+│   │   
+│   │
 │   ├── services/
 │   │   ├── __init__.py
-│   │   └── utility_service.py
+│   │   └── 
 │   └── ml/
 │       ├── __init__.py
-│       ├── data_preprocessing.py
-│       ├── model_training.py
-│       └── prediction.py
+│       ├── impact_analyzer.py
+│       ├── 
+│       └── 
 │
 ├── tests/
 │   ├── __init__.py
-│   ├── test_ml.py
-│   ├── test_models.py
-│   └── test_views.py
+│   ├── test_compare_elements.py
+│   ├── test_impact_analyzer.py
+│   └── test_parse_xsd.py
 │
 ├── README.md
 ├── requirements.txt
