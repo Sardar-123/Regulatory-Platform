@@ -1,4 +1,11 @@
-# DORA Compliance Score Predictor
+# Regulatory Platform
+
+
+## SEPA
+
+
+
+## DORA Compliance Score Predictor
 
 ## Description
 This project provides a platform for calculating DORA compliance scores and generating actionable recommendations to improve compliance. The platform leverages machine learning models and Azure OpenAI's LLM capabilities.
