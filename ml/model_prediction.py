@@ -6,7 +6,9 @@ import json
 
 def load_model_and_encoders():
     rf_model = joblib.load('data/models/dora_compliance_model.pkl')
-    return rf_model
+    label_encoders = joblib.load('data/encoders/label_encoder.pkl')
+    one_hot_columns = joblib.load('data/encoders/one_hot_encoder.pkl')
+    return rf_model,label_encoders, one_hot_columns
 
 with open('data/weights/application_weights.json', 'r') as file:
     weights = json.load(file)
