@@ -1,0 +1,15 @@
+#Initialize Git
+git init
+
+#Add Your Remote Repository
+git remote add origin https://github.com/Sardar-123/Regulatory-Platform.git
+
+
+#Add and Commit All Files
+git add .
+git commit -m "Initial commit"
+
+
+#Push Code to GitHub
+git branch -M main
+git push -u origin main
