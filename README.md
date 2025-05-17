@@ -1,5 +1,6 @@
 # Regulatory Platform
 
+This project helps assess compliance with SEPA, DORA, and SWIFT regulations.
 
 ## SEPA
 
