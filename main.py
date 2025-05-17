@@ -96,7 +96,7 @@ elif regulatory_option == "DORA":
         st.code(query)
 
         with st.spinner("Retrieving relevant documents using RAG..."):
-            rag_context = retrieve_context(query, "C:/Users/mohds/Desktop/Project-2024/RP(12-05-2025)/embeddings/dora_index1", k=3)
+            rag_context = retrieve_context(query, "embeddings/dora_index1", k=3)
 
         with st.spinner("Generating recommendations..."):
             recommendations = generate_response(query, "\n".join(rag_context), deployment_name="gpt-4")
